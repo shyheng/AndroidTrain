@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeNotificationStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/description"
+    android:notificationTimeout="3000"
+    android:canPerformGestures="true"
+    android:packageNames="com.alibaba.android.rimet" /><!--当设置了 canRetrieveWindowContent 为 true 的时候，可以通过 event.getSource() 或者 getRootInActiveWindow() 获取当前页面中的 AccessibilityNodeInfo 树的根节点 作者：万俟霜风 https://www.bilibili.com/read/cv8747010/ 出处：bilibili-->
+    <!--
+    canRetrieveWindowContent：表示该服务能否访问活动窗口中的内容。也就是如果你希望在服务中获取窗体内容，则需要设置其值为true
+    deion：对该无障碍功能的描述。
+    notificationTimeout：接受事件的时间间隔，通常将其设置为100即可
+    packageNames：表示对该服务是用来监听哪个包的产生的事件
+    canPerformGestures:表示是否允许进行手势分发
+    canRequestFilterKeyEvents：辅助服务希望能够请求过滤关键事件。
+    nonInteractiveUiTimeout：超时设置，未不包含交互式空间返回合适的值
+
+     android:accessibilityEventTypes="typeAllMask" //过滤所有时间
+                           android:accessibilityFlags="flagReportViewIds" //辅助服务额外的flag信息
+                           android:accessibilityFeedbackType="feedbackSpoken"//事件的反馈类型
+                           android:notificationTimeout="100" //通知超时时间
+                           android:canRetrieveWindowContent="true" //是否可以获取窗口内容
+    -->

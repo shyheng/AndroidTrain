@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hhh.dingdingtask">
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--必须提升程序的权限才能收到系统启动完成的广播。权限的提升也是通过在AndroidManifest.xml中进行配置实现的-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!--https://www.jianshu.com/p/a030c4c6f650-->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <!--tartForeground权限 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!-- persistent="true" https://blog.csdn.net/salmon_zhang/article/details/90741912-->
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:persistent="true"
+        android:theme="@style/Theme.DingDingTask">
+        <!--开机启动广播接收器 https://blog.csdn.net/hou09tian/article/details/80389054-->
+        <receiver android:name=".BootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <!-- 注册定时闹钟广播接受器-->
+        <!--https://www.cnblogs.com/linus-tan/p/5775201.html-->
+        <receiver
+            android:name=".AlarmBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="dingding" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".AlarmAccessibilityService"
+            android:enabled="true"
+            android:exported="true"
+            android:priority="1000"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/config_accessibility" />
+        </service>
+        <!--:enabled="true" 是否可以实例化 exported="true" //是否可以被调用 https://www.cnblogs.com/xuqp/p/9845229.html-->
+        <service
+            android:name=".AlarmService"
+            android:enabled="true"
+            android:exported="true"
+            android:priority="1000"></service>
+
+    </application>
+
+</manifest>
