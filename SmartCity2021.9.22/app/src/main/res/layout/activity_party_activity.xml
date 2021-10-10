@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Party.PartyActivityActivity"
+    android:orientation="vertical">
+    <Toolbar
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <Button
+            android:layout_gravity="left"
+            android:id="@+id/p_a_b"
+            android:background="@drawable/fh"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_gravity="center"
+            android:text="组织活动"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </Toolbar>
+
+
+    <TextView
+        android:textSize="30dp"
+        android:text="为了进一步发挥党建工作引领作用，全面推进工作提升，推进基层社会治理的创新，经街道党工委研究决定开展以“弘扬垦荒精神，推动改革发展”为主题的红色七月党建系列活动"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginRight="50dp"
+        android:text="报名"
+        android:textSize="20dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="40dp"
+        android:text="留言"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:id="@+id/par_act_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

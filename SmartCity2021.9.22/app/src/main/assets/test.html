@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!--重要meta, 必须!-->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,shrink-to-fit=no"/>
+    <title>SUBWAY</title>
+</head>
+<body>
+<div id="mysubway"></div>
+
+<script src="https://webapi.amap.com/subway?v=1.0&amp;key=cb04c89f81d31463c33b035815ae06ab&amp;callback=cbk">
+</script>
+<script type="text/javascript">
+			//开启easy模式, 直接完成地铁图基本功能, 无需自己写交互
+			window.cbk = function() {
+				var mysubway = subway("mysubway", {
+					easy: 1,
+					adcode: 5301
+				});
+			};
+</script>
+</body>
+</html>

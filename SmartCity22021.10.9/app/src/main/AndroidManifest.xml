@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shy.smartcity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartCity">
+        <activity
+            android:name=".Activity.Community.CommunityVehicleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Community.CommunityBusinessActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Community.CommunityNetworkingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Community.CommunityExpressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Community.CommunityPropertyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Hospital.HospitalConfirmActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Hospital.HospitalDepartmentInfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Hospital.HospitalDepartmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Hospital.HospitalInfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Hospital.HospitalRegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Hospital.HospitalSynopsisActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Hospital.HospitalIndexActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Violation.ViolationDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Violation.ViolationSelectActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Violation.ViolationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Move.MoveItemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Move.MoveActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Personal.OrderDetailedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Personal.FeedbackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Personal.OrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Personal.UpPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Personal.PersonalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.GuideActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.IndexActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

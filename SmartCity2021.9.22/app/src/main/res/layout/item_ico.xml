@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_met"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_met"
+        android:layout_width="match_parent"
+        android:layout_height="117dp" />
+
+    <TextView
+        android:id="@+id/text_met"
+        android:layout_width="84dp"
+        android:layout_height="386dp"
+        android:layout_gravity="center"
+        android:text="东部汽车站"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/img_ico"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

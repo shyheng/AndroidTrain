@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/drawable/bor.xml" value="0.22962962962962963" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/drawable/fh.xml" value="0.1546875" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_community_business.xml" value="0.2" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_community_express.xml" value="0.26145833333333335" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_community_networking.xml" value="0.2" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_community_property.xml" value="0.26145833333333335" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_community_vehicle.xml" value="0.176" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_feedback.xml" value="0.13645833333333332" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_guide.xml" value="0.25885416666666666" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_hospital_confirm.xml" value="0.152" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_hospital_department.xml" value="0.2" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_hospital_department_info.xml" value="0.176" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_hospital_index.xml" value="0.2" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_hospital_info.xml" value="0.2" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_hospital_register.xml" value="0.14739583333333334" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_hospital_synopsis.xml" value="0.176" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_index.xml" value="0.19722222222222222" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_main.xml" value="0.19722222222222222" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_move.xml" value="0.152" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_move_item.xml" value="0.2" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_order.xml" value="0.13645833333333332" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_order_detailed.xml" value="0.13645833333333332" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_personal.xml" value="0.13645833333333332" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_up_password.xml" value="0.13645833333333332" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_violation.xml" value="0.13854166666666667" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_violation_details.xml" value="0.2" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/activity_violation_select.xml" value="0.12395833333333334" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/banner1.xml" value="0.13333333333333333" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/banner2.xml" value="0.13333333333333333" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/banner3.xml" value="0.13333333333333333" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/fragment_community.xml" value="0.1328125" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/fragment_news.xml" value="0.1328125" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/fragment_personal.xml" value="0.1328125" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/fragment_service.xml" value="0.1390625" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/guide1.xml" value="0.13333333333333333" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/guide2.xml" value="0.13333333333333333" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/guide3.xml" value="0.13333333333333333" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/item_express.xml" value="0.2" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/item_hospital.xml" value="0.27395833333333336" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/item_move.xml" value="0.13854166666666667" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/item_new.xml" value="0.13645833333333332" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/item_order.xml" value="0.13645833333333332" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/item_server.xml" value="0.13645833333333332" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/item_theme.xml" value="0.13333333333333333" />
+        <entry key="..\:/Android_Development/SmartCity/app/src/main/res/layout/item_violation.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14_PREVIEW" project-jdk-name="14" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

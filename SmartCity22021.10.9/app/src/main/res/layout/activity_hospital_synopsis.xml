@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Hospital.HospitalSynopsisActivity"
+    android:orientation="vertical">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/hos_syn_but"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:background="@drawable/fh"
+            android:text="返回" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:text="医院简介"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="40dp" />
+    </Toolbar>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/hos_syn_vp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="      北京协和医院（Peking Union Medical College Hospital）是一所位于北京市东城区，集医疗、科研、教学为一体的大型综合医院。北京协和医院在中国乃至世界享有盛名。医院成立于1921年。北京协和医院是中国最早承担外宾医疗任务的单位，医院专门设立外宾和高干门诊部，开设专门的高干、外宾、特需病区。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/hos_syn_reg"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="点击挂号"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Party.PartyDynamicActivity"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <Button
+            android:layout_gravity="left"
+            android:id="@+id/p_d_b"
+            android:background="@drawable/fh"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_gravity="center"
+            android:text="党建动态"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="习近平总书记强调，人民就是江山，江山就是人民。通过开展“红色故事·大家讲”活动，出版社干部职工不断从党史中汲取奋进的智慧和力量。广大党员和干部职工纷纷表示，作为审计人、审计出版人，就要始终树牢以人民为中心的思想，厚植为民情怀，站稳人民立场，走好群众路线，全心全意为人民服务，这也是我们做好一切工作的出发点和落脚点，认真履职尽责，坚守底线红线，共同携手推动出版社高质量发展。"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="评论："
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_width="243dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:hint="请输入您的评论" />
+            <Button
+                android:text="发送"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/par_dyn_lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

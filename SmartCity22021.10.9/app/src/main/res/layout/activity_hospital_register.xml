@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Hospital.HospitalRegisterActivity"
+    android:orientation="vertical">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/hos_reg_but"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:background="@drawable/fh"
+            android:text="返回" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:text="挂号"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="40dp" />
+    </Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bor"
+        android:layout_gravity="center"
+        android:layout_width="400dp"
+        android:layout_height="200dp">
+
+        <Button
+            android:id="@+id/hop_gh"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="300dp"
+            android:textSize="50dp"
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
