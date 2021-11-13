@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.IndexActivity"
+    android:orientation="vertical">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="700dp" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RadioButton
+            android:gravity="center"
+            android:button="@null"
+            android:text="首页"
+            android:id="@+id/sy"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/jf"
+            android:gravity="center"
+            android:button="@null"
+            android:text="缴费"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/zhyl"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="智慧养老"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/wd"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="我的"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </RadioGroup>
+</LinearLayout>

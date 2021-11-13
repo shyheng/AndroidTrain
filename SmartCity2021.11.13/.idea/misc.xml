@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Program Files/Android/Android_Development/SmartCity/app/src/main/res/layout/activity_feedback.xml" value="0.24444444444444444" />
+        <entry key="..\:/Program Files/Android/Android_Development/SmartCity/app/src/main/res/layout/activity_order.xml" value="0.24444444444444444" />
+        <entry key="..\:/Program Files/Android/Android_Development/SmartCity/app/src/main/res/layout/activity_order_detailed.xml" value="0.24444444444444444" />
+        <entry key="..\:/Program Files/Android/Android_Development/SmartCity/app/src/main/res/layout/activity_personal.xml" value="0.24444444444444444" />
+        <entry key="..\:/Program Files/Android/Android_Development/SmartCity/app/src/main/res/layout/activity_up_password.xml" value="0.24444444444444444" />
+        <entry key="..\:/Program Files/Android/Android_Development/SmartCity/app/src/main/res/layout/fragment_jf.xml" value="0.13489583333333333" />
+        <entry key="..\:/Program Files/Android/Android_Development/SmartCity/app/src/main/res/layout/fragment_wd.xml" value="0.13489583333333333" />
+        <entry key="..\:/Program Files/Android/Android_Development/SmartCity/app/src/main/res/layout/fragment_zhyl.xml" value="0.13489583333333333" />
+        <entry key="..\:/Program Files/Android/Android_Development/SmartCity/app/src/main/res/layout/item_order.xml" value="0.24444444444444444" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

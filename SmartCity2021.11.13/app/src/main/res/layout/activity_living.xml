@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.LivingActivity">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/fh"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回" />
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机缴费"
+            android:textColor="@color/hs"
+            android:textSize="30dp" />
+        <Button
+            android:id="@+id/but_chek"
+            android:textColor="@color/hs"
+            android:layout_marginLeft="30dp"
+            android:textSize="15dp"
+            android:text="交费记录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </Toolbar>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp">
+
+        <RadioButton
+            android:id="@+id/rg_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="中国移动"
+            android:textColor="@color/hs"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/rg_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中国联通"
+            android:textColor="@color/hs"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/rg_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中国电信"
+            android:textColor="@color/hs"
+            android:textSize="30dp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机号"
+            android:textColor="@color/hs"
+            android:textSize="35dp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/select_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="查询"
+        android:textSize="30dp" />
+
+    <ListView
+        android:id="@+id/lv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp" />
+</LinearLayout>
