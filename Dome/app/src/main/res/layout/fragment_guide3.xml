@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.guide.GuideFragment3">
+
+    <TextView
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:id="@+id/tv_g"
+        android:textColor="@color/black"
+        android:text="第三个界面" />
+
+    <Button
+        android:id="@+id/but_g"
+        app:layout_constraintRight_toRightOf="@+id/tv_g"
+        app:layout_constraintLeft_toLeftOf="@id/tv_g"
+        app:layout_constraintTop_toBottomOf="@id/tv_g"
+        android:layout_width="300dp"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:text="点击退出"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
